@@ -9,13 +9,4 @@
     	<welcome-file>EmployeeManager.html</welcome-file>
   	</welcome-file-list>
 
-	<servlet>
-	    <servlet-name>fileUploadServlet</servlet-name>
-	    <servlet-class>com.javalabs.server.FileUpload</servlet-class>
-	</servlet>
-	<servlet-mapping>
-	  <servlet-name>fileUploadServlet</servlet-name>
-	  <url-pattern>/fileupload</url-pattern>
-	</servlet-mapping>
-
 </web-app>

@@ -21,22 +21,6 @@
 		</resources>
 		<plugins>
 			<plugin>
-			    <groupId>org.eclipse.jetty</groupId>
-			    <artifactId>jetty-maven-plugin</artifactId>
-			    <dependencies>
-			        <dependency>
-			            <groupId>org.ow2.asm</groupId>
-			            <artifactId>asm</artifactId>
-			            <version>5.0.2</version>
-			        </dependency>
-			        <dependency>
-			            <groupId>org.ow2.asm</groupId>
-			            <artifactId>asm-commons</artifactId>
-			            <version>5.0.2</version>
-			        </dependency>
-			    </dependencies>
-			</plugin>			
-			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.8.1</version>
 				<configuration>
